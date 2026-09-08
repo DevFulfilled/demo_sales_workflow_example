@@ -38,3 +38,27 @@ LOAD
 FROM [lib://Data:DataFiles/Qlik_Sales_Test_Data.xlsx]
 (ooxml, embedded labels, table is Sales);
 
+
+///$tab Dimenstions
+LOAD
+    CustomerID,
+    CustomerName,
+    Segment,
+    City,
+    Region,
+    Country,
+    CustomerSince
+FROM [lib://Data:DataFiles/Customers(1).csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
+
+LOAD
+    ProductID,
+    ProductName,
+    Category,
+    Subcategory,
+    UnitCost,
+    UnitPrice
+FROM [lib://Data:DataFiles/Products(1).csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+
