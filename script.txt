@@ -41,7 +41,7 @@ LOAD
 FROM [lib://Data:DataFiles/Qlik_Sales_Test_Data.xlsx]
 (ooxml, embedded labels, table is Sales);
 
-///$tab Dimenstions
+///$tab Dimensions
 Customer:
 LOAD
     CustomerID as %CustomerID,
@@ -50,7 +50,8 @@ LOAD
     City,
     Region,
     Country,
-    CustomerSince
+    Date(Date#(CustomerSince, 'M/D/YYYY')) as CustomerSince,
+    Floor((Today() - CustomerSince) / 365.25) as CustomerLenghYears
 FROM [lib://Data:DataFiles/Customers(1).csv]
 (txt, utf8, embedded labels, delimiter is ',', msq);
 
