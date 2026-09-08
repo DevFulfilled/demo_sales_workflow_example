@@ -1,8 +1,8 @@
 MASTER MEASURES
 ===============
 
-Title: Gross Sales
-Label: Gross Sales
+Title: Gross Profit
+Label: Gross Profit
 ID: JYByuzq
 Tags: 
 
