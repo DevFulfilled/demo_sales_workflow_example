@@ -1,5 +1,13 @@
 MASTER MEASURES
 ===============
 
-No master measures returned.
+Title: Gross Sales
+Label: Gross Sales
+ID: JYByuzq
+Tags: 
+
+Expression:
+Sum(SalesAmount) - Sum(CostAmount)
+
+--------------------------------------------------------------------------------
 
