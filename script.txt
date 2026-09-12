@@ -44,14 +44,22 @@ FROM [lib://Data:DataFiles/Qlik_Sales_Test_Data.xlsx]
 ///$tab Dimensions
 Customer:
 LOAD
+    %CustomerID,
+    CustomerName,
+    Segment,
+    City,
+    Region,
+    Country,
+    CustomerSince,
+    Floor((Today(1) - CustomerSince) / 365.25) as CustomerLengthYears;
+LOAD
     CustomerID as %CustomerID,
     CustomerName,
     Segment,
     City,
     Region,
     Country,
-    Date(Date#(CustomerSince, 'M/D/YYYY')) as CustomerSince,
-    Floor((Today() - CustomerSince) / 365.25) as CustomerLenghYears
+    Date(Date#(CustomerSince, 'YYYY-MM-DD')) as CustomerSince
 FROM [lib://Data:DataFiles/Customers(1).csv]
 (txt, utf8, embedded labels, delimiter is ',', msq);
 
