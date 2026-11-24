@@ -27,7 +27,7 @@ ID: YQPD
 Tags: 
 
 Expression:
-([Total Sales] - [Total Cost])/ [Total Sales]
+If([Total Sales] <> 0, ([Total Sales] - [Total Cost]) / [Total Sales])
 
 --------------------------------------------------------------------------------
 
