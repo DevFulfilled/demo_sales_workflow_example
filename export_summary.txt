@@ -3,7 +3,7 @@ DEVFULFILLED METADATA EXPORT
 
 Project: 
 Exported By: Richard Pearce
-Exported At: 2026-11-24 13:33:15
+Exported At: 2026-11-24 14:11:40
 
 FILES EXPORTED
 ==============
@@ -13,6 +13,17 @@ script.txt
 sheets.txt
 bookmarks.txt
 master_measures.txt
+master_dimensions.txt
+master_visualisations.txt
+variables.txt
+object_measures.json
+object_dimensions.json
+
+SECTIONS WITH NO DATA RETURNED
+==============================
+
+sheets.txt
+bookmarks.txt
 master_dimensions.txt
 master_visualisations.txt
 variables.txt
