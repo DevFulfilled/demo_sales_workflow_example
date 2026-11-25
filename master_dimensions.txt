@@ -1,5 +1,53 @@
 MASTER DIMENSIONS
 =================
 
-No master dimensions returned.
+Title: Region
+ID: 2c8c32a0-51ad-47df-8751-fc2b86d34f20
+Tags: 
+Grouping: N
+Fields: Region
+Labels: Region
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: CustomerName
+ID: 41cf405c-402f-485e-a33f-ca2c3d0577e4
+Tags: 
+Grouping: N
+Fields: CustomerName
+Labels: CustomerName
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: City
+ID: 60c26ede-8604-4fe6-9112-7711d073cc5a
+Tags: 
+Grouping: N
+Fields: City
+Labels: City
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Channel
+ID: 98579fda-812e-4433-bf46-5dbf291dfa4e
+Tags: 
+Grouping: N
+Fields: Channel
+Labels: Channel
+Description: 
+
+--------------------------------------------------------------------------------
+
+Title: Category
+ID: JEuBWjc
+Tags: 
+Grouping: N
+Fields: Category
+Labels: Category
+Description: 
+
+--------------------------------------------------------------------------------
 
