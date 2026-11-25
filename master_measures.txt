@@ -57,7 +57,7 @@ ID: btvJ
 Tags: 
 
 Expression:
-[Total Sales] / Count(DISTINCT %CustomerID)
+If(Count(DISTINCT %CustomerID) <> 0, [Total Sales] / Count(DISTINCT %CustomerID))
 
 --------------------------------------------------------------------------------
 
