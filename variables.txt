@@ -1,6 +1,38 @@
 VARIABLES
 =========
 
+Name: vDataPath
+ID: 1ab8ee41-54f6-45de-ae89-845b21e34d40
+Script Created: Yes
+Definition:
+lib://Data:DataFiles
+
+--------------------------------------------------------------------------------
+
+Name: vSalesFile
+ID: e53b5044-2f67-4c64-962e-923e879e5d82
+Script Created: Yes
+Definition:
+Qlik_Sales_Test_Data.xlsx
+
+--------------------------------------------------------------------------------
+
+Name: vCustomerFile
+ID: a1143ac0-d684-4be7-a62f-45bcbbfc00bc
+Script Created: Yes
+Definition:
+Customers(1).csv
+
+--------------------------------------------------------------------------------
+
+Name: vProductFile
+ID: ed83a3c0-909c-4fdd-8661-9c8829a659c9
+Script Created: Yes
+Definition:
+Products(1).csv
+
+--------------------------------------------------------------------------------
+
 Name: vAppVar
 ID: c66f8d73-bc42-4714-b0c9-107284b943f8
 Script Created: No
