@@ -39,6 +39,16 @@
     },
     {
         "dimension_index": 0,
+        "field_defs": [],
+        "field_labels": [],
+        "is_master_item": true,
+        "library_id": "JEuBWjc",
+        "object_id": "GzHvS",
+        "object_title": "",
+        "object_type": "sn-table"
+    },
+    {
+        "dimension_index": 0,
         "field_defs": [
             "=CustomerName"
         ],
