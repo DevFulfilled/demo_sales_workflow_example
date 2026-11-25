@@ -23,7 +23,12 @@ SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday';
 SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y';
 
 
-LET vScriptVar = 'this is a script variable';
+
+LET vDataPath = 'lib://Data:DataFiles';
+LET vSalesFile = 'Qlik_Sales_Test_Data.xlsx';
+LET vCustomerFile = 'Customers(1).csv';
+LET vProductFile = 'Products(1).csv';
+
 ///$tab Sales Data
 SET HidePrefix='%';
 
@@ -40,7 +45,7 @@ LOAD
     CostAmount,
     Profit,
     Date(OrderDate) as OrderDate // Verified Excel date serial. Uses the app's DateFormat.
-FROM [lib://Data:DataFiles/Qlik_Sales_Test_Data.xlsx]
+FROM [$(vDataPath)/$(vSalesFile)]
 (ooxml, embedded labels, table is Sales);
 
 
@@ -64,7 +69,7 @@ LOAD
     Region,
     Country,
     Date(Date#(CustomerSince, 'YYYY-MM-DD')) as CustomerSince
-FROM [lib://Data:DataFiles/Customers(1).csv]
+FROM [$(vDataPath)/$(vCustomerFile)]
 (txt, utf8, embedded labels, delimiter is ',', msq);
 
 
@@ -76,6 +81,6 @@ LOAD
     Subcategory,
     UnitCost,
     UnitPrice
-FROM [lib://Data:DataFiles/Products(1).csv]
+FROM [$(vDataPath)/$(vProductFile)]
 (txt, utf8, embedded labels, delimiter is ',', msq);
 
