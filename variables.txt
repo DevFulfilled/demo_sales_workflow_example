@@ -1,5 +1,11 @@
 VARIABLES
 =========
 
-No variables returned.
+Name: vAppVar
+ID: c66f8d73-bc42-4714-b0c9-107284b943f8
+Script Created: No
+Definition:
+1*10
+
+--------------------------------------------------------------------------------
 

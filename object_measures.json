@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "JYByuzq",
+        "measure_index": 0,
+        "object_id": "0f43986a-848f-45e1-bd94-8b86a35710b6",
+        "object_title": "",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": "Sum(Quantity)",
+        "is_master_item": false,
+        "label": "Total Qty",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "3fa9ad4c-c939-441d-9334-e90a4cc8577d",
+        "object_title": "",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "JYByuzq",
+        "measure_index": 1,
+        "object_id": "3fa9ad4c-c939-441d-9334-e90a4cc8577d",
+        "object_title": "",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "YQPD",
+        "measure_index": 2,
+        "object_id": "3fa9ad4c-c939-441d-9334-e90a4cc8577d",
+        "object_title": "",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "btvJ",
+        "measure_index": 0,
+        "object_id": "68ef202b-59ca-47d7-b561-6eb9c7c611c1",
+        "object_title": "",
+        "object_type": "masterobject"
+    },
+    {
+        "expression": "Sum(Quantity)",
+        "is_master_item": false,
+        "label": "Total Qty",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "KTFfN",
+        "object_title": "",
+        "object_type": "sn-table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "JYByuzq",
+        "measure_index": 1,
+        "object_id": "KTFfN",
+        "object_title": "",
+        "object_type": "sn-table"
+    },
+    {
+        "expression": null,
+        "is_master_item": true,
+        "label": null,
+        "library_id": "YQPD",
+        "measure_index": 2,
+        "object_id": "KTFfN",
+        "object_title": "",
+        "object_type": "sn-table"
+    },
+    {
+        "expression": "=$(=vAppVar)",
+        "is_master_item": false,
+        "label": "=$(=vAppVar)",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "fd8b6eec-7a97-474d-aa76-36670ac9d068",
+        "object_title": "",
+        "object_type": "sn-text"
+    },
+    {
+        "expression": "=vScriptVar",
+        "is_master_item": false,
+        "label": "=vScriptVar",
+        "library_id": null,
+        "measure_index": 1,
+        "object_id": "fd8b6eec-7a97-474d-aa76-36670ac9d068",
+        "object_title": "",
+        "object_type": "sn-text"
+    },
+    {
+        "expression": "=$(=vAppVar)",
+        "is_master_item": false,
+        "label": "=$(=vAppVar)",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "kXVxVd",
+        "object_title": "",
+        "object_type": "sn-text"
+    },
+    {
+        "expression": "=vScriptVar",
+        "is_master_item": false,
+        "label": "=vScriptVar",
+        "library_id": null,
+        "measure_index": 1,
+        "object_id": "kXVxVd",
+        "object_title": "",
+        "object_type": "sn-text"
+    }
+]

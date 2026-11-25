@@ -1,5 +1,51 @@
 MASTER VISUALISATIONS
 =====================
 
-No master visualisations returned.
+Detail
+------
+
+ID: 3fa9ad4c-c939-441d-9334-e90a4cc8577d
+Object Type: masterobject
+Visualisation Type: sn-table
+Tags: 
+Published: No
+Approved: Yes
+Publish Time: 
+Created Date: 2026-11-25T10:53:19.168Z
+Modified Date: 2026-11-25T10:53:19.168Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
+
+Profit by Channel
+-----------------
+
+ID: 0f43986a-848f-45e1-bd94-8b86a35710b6
+Object Type: masterobject
+Visualisation Type: piechart
+Tags: 
+Published: No
+Approved: Yes
+Publish Time: 
+Created Date: 2026-11-25T10:53:19.169Z
+Modified Date: 2026-11-25T10:53:19.169Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
+
+Sales Per Customer Over Time
+----------------------------
+
+ID: 68ef202b-59ca-47d7-b561-6eb9c7c611c1
+Object Type: masterobject
+Visualisation Type: linechart
+Tags: 
+Published: No
+Approved: Yes
+Publish Time: 
+Created Date: 2026-11-25T10:53:19.167Z
+Modified Date: 2026-11-25T10:53:19.167Z
+Owner: auth0|a08D000000d9u66IAA
+
+--------------------------------------------------------------------------------
 
