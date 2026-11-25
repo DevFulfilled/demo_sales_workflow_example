@@ -21,6 +21,16 @@ sum(SalesAmount)
 
 --------------------------------------------------------------------------------
 
+Title: Average Sales Amount
+Label: Average Sales Amount
+ID: Xxhvc
+Tags: 
+
+Expression:
+Avg(SalesAmount)
+
+--------------------------------------------------------------------------------
+
 Title: Gross Margin Percentage
 Label: Gross Margin Percentage
 ID: YQPD
