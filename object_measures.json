@@ -50,6 +50,16 @@
         "object_type": "masterobject"
     },
     {
+        "expression": "Count([Category])",
+        "is_master_item": false,
+        "label": "Count([Category])",
+        "library_id": null,
+        "measure_index": 0,
+        "object_id": "GzHvS",
+        "object_title": "",
+        "object_type": "sn-table"
+    },
+    {
         "expression": "Sum(Quantity)",
         "is_master_item": false,
         "label": "Total Qty",
